@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        let num1=23
+        let num2=27
+        // let add=num1+num2
+        // console.log(add)
+
+        // Q:1 Write a program that check the given number is positive or negative.
+        let number = 10;
+        if (number>0){
+            console.log("The number is positive");
+        }
+        else if (number<0){
+            console.log("The number is negative");
+        }
+        else{
+            console.log("The number is zero");
+        }
+
+        // Q:2 Write a program that checks if a number is even or odd.
+        let numberr = 11;
+        if(numberr%2==0){
+            console.log("The number is even")
+        }
+        else{
+            console.log("The number is odd")
+        }
+        // Q:3 Write a program to determine the greater of two numbers.
+        let numberr1 = 14;
+        let numberr2 = 16;
+        if (numberr1>numberr2){
+            console.log("This is the greatest number" + " " + numberr1)
+        }
+        else if(numberr1<numberr2){
+            console.log("This is the greatest number" + " " + numberr2)
+        }
+        else{
+            console.log("The numbers are equal")
+        }
+        // Q:4 Create a program to check a student grade and percentage.
+        let sname = "Ali";
+        let maths = 89;
+        let science = 85;
+        let english = 90;
+        let urdu = 81;
+        let islamiat = 80;
+        let omarks = maths+science+english+urdu+islamiat;
+        let totalmarks = 500
+        let Percentagee = omarks/totalmarks*100
+        console.log(Percentagee)
+        console.log("Percentage" + " " + "=" + " " + Percentagee + "%")
+        let percentage=80;
+        if(percentage >= 90){
+            console.log(sname + " " +  "your grade is" + " " + "A++");
+        }
+        else if(percentage >= 80){
+            console.log(sname + " " + "your grade is" + " " +  "A");
+        }
+        else if(percentage>=70){
+            console.log(sname + " " + "your grade is" + " " +  "A");
+        }
+        else if(percentage>=60){
+            console.log(sname + " " +  "your grade is" + " " +  "B");
+        }
+        else{
+            console.log(sname + " " +  "your grade is" + " " +  "C");
+        }
+        // Q:5 Write a program that greets the user based on the time of day. Display good morning, good afternnon or good evening based on the time of day when you run the code.
+        
+        // const d = new Date();
+        // let time = d.getTime();
+        // console.log(time)
+
+        let hour = "12pm"
+        if(hour <= "4am" && hour <= "12am"){
+            console.log("Good Morning..")
+        }
+        else if(hour <= "5pm"){
+            console.log("Good Afternoon..")
+        }
+        else if(hour <= "9pm"){
+            console.log("Good Evening..")
+        }
+        else if(hour <= "4am"){
+            console.log("Good Night")
+        }
+        else{
+            console.log("error")
+        }
+
+
+        // Q:6 Write a program that calculates the Body Mass Index (BMI) and categorizes it.
+        let name1 = "Ali";
+        let mass = 45;
+        let height = 1.4;
+        let BMI = mass/height*2;
+        if(BMI < 20){
+            console.log(alert( name1 + " " + "your BMI falls within the underweight range."))
+        }
+        else if(BMI > 20 && BMI < 50){
+            console.log(alert( name1 + " " + "your BMI falls within the normal or healthy weight."))
+        }
+        else if(BMI > 50){
+            console.log(alert( name1 + " " + "your BMI falls within the overweight range."))
+        }
+        else{
+            console.log(alert("ERROR: Enter the correct data"))
+        }
+        
+        
+        
+        // Q:7 write a simple calculate.
+        //    1.Add
+        //    2.Sub
+        //    3.mul
+        //    4.div
+        let value1 = 20;
+        let value2 = 30;
+        let addition = value1 + value2;
+        let subtraction = value1 - value2;
+        let multiplication = value1 * value2;
+        let division = value1 / value2;
+
+        console.log(addition);
+        console.log(subtraction);
+        console.log(multiplication);
+        console.log(division);
+
+        // Q:8 Write a simple JavaScript program that checks if a person is eligible for a CNIC ( show message with name).
+        age = 19;
+        if (age <= 17){
+            alert("You are not eligible for a CNIC.")
+        }
+        else {
+            alert("You are eligible for a CNIC. ")
+        }
+
+        // alert(Date());
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
